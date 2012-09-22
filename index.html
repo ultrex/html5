@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+<title>Sitio web con Responsive web Design en HTML5, CSS3 y jQuery</title>
+<meta name="description" content="Sitio para paracticar html5 y todo sus contenidos" />
+<meta name="keywords" content="html5, aprnder, tutoriales,page web" />
+<meta name="viewport" content="width=divice-width,initial-scale=1" />
+<link rel="author" type="text/plain" href="humans.txt" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/plugins/jquery.flexslider-min.js"></script>
+<!--[if IE 9]>
+<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+</script>
+
+</head>
+
+<body>
+    <div id="container">
+           
+           <header>
+                <h1>
+                    <a href="index.html"><img class="fade" src="img/bextlan-logo.png" alt="powergames.com.mx, la mejor manera para divertirte" /></a>
+                </h1>
+                <nav>
+                    <ul>
+                       <li><a href="index.html">Inicio</a></li>
+                       <li><a href="about.html">Acerca</a></li>
+                       <li><a href="services.html">Servicios</a></li>
+                       <li><a href="jobs.html">Portafolio</a></li>
+                       <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </nav><!--end nav-->
+           </header><!--end header-->
+           
+           <section id="content">
+                 <section class="main">
+                     <article class="gallery-index">
+                          <div class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <a href="#"><img src="img/slide-0.png" /></a>
+                                        <p class="flex-caption">This image is wrapped in a link!</p>
+                                    </li>
+                                    <li>
+                                         <a href="#"><img src="img/slide-1.png" /></a>
+                                         <p class="flex-caption">This image is wrapped in a link!</p>
+                                    </li>
+                                    <li>
+                                         <a href="#"><img src="img/slide-2.png" /></a>
+                                         <p class="flex-caption">This image is wrapped in a link!</p>
+                                    </li>
+                                    <li>
+                                         <a href="#"><img src="img/slide-3.png" /></a>
+                                         <p class="flex-caption">This image is wrapped in a link!</p>
+                                    </li>
+
+                                </ul>
+	                       </div>
+                     </article>
+                 </section>
+           
+                 <aside>
+                     <!--Twitter-->
+                     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                     <a href="https://twitter.com/share" class="twitter-share-button" data-text="Aqui nomas con html5 y css3" data-url="http://powergamesx.net63.net" data-count="vertical" data-lang="es">Twittear</a>
+
+                     <!--Facebook-->
+                     <!--Advertising-->
+                 </aside><!--end aside-->
+           </section><!--end section#content-->
+           
+           <footer>
+                <p>Copyrihgt Developed by <a rel="author" href="https://twitter.com/JonathanUltrex" target="_blank">Jonathan Sosa Andrade</a></p>
+           </footer><!--end footer-->
+           
+    </div><!--end container-->
+</body>
+</html>
